@@ -1,0 +1,61 @@
+
+
+/* reset css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* police */
+@font-face {
+    font-family: 'ralewayextrabold';
+    src: url('font/extra_bold/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('font/extra_bold/raleway-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('font/font_bold/raleway-bold-webfont.woff2') format('woff2'),
+         url('font/font_bold/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('font/font_semibold/raleway-semibold-webfont.woff2') format('woff2'),
+         url('font/font_semibold/raleway-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('font/font_regular/raleway-regular-webfont.woff2') format('woff2'),
+         url('font/font_regular/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('font/font_mince/raleway-thin-webfont.woff2') format('woff2'),
+         url('font/font_mince/raleway-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
