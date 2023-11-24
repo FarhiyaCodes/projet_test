@@ -1,49 +1,82 @@
-/* Début de header */
-
-
-header{
-    margin-top: 47px;
-}
-
-#blockpage-1{
-    display: flex;
-    justify-content:space-between ;
-}
-                                  
-.img-booki{
-    width: 80px;
-    height: 40px;
-    margin-left: 30px;
-    margin-top: -15px;
-    object-fit: cover;
-}
-                                  
-.nav-1{
-    margin-right: 55px;
-    list-style: none;
-    display: flex;
-}
-                                  
-.li-1{
-    margin-right: 10px;
-}
-
-.loupe{
-    padding-top: 14px;
-    padding-left: 12px;
-    padding-right: 14px;
-    padding-bottom: 30px;
-}
-                                  
-.a1{
-    color: black;
-    text-decoration: none;
-    font-family: 'ralewayregular';
-}
-                                  
-.a1:hover{ 
-    color: blue;
-    border-top: 3px blue solid;
-    padding-top: 43px;
-}
+/* Début de section 1 */
  
+
+#section-1{
+    margin-top: 40px;
+}
+                                  
+.title-1{ 
+    font-family: 'ralewaysemibold';
+    margin-left: 30px;
+}
+                                  
+form{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.text-1{
+    font-family: 'ralewaythin';
+    font-size: small;
+    margin-left: 30px;
+}
+                                  
+#recherche{
+    font-family: 'ralewaysemibold';
+    background-color: #0065FC;
+    color: white;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    padding-right: 5px;
+    margin-left: -10px;
+    border-radius: 0px 10px 10px 0px;
+    border-color:#0065FC ;
+}
+                                  
+#zoom{
+    color: white;
+}
+                                  
+button{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: white;
+    border:white 1px solid;
+}
+                                   
+input{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+                                  
+#barre-recherche{
+    display: flex;
+}
+                                   
+#icone-1{
+    background-color: #F2F2F2;
+    padding-right: 12px;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 9px;
+    margin-right: -5px;
+    border-radius: 10px 0px 0px 10px;
+    height: 20px;
+}
+                                  
+#icone-2{
+    font-family: 'ralewaysemibold';
+    padding-top: 11.5px;
+    padding-bottom: 11px;
+    border: 1px #F2F2F2 solid;
+    border-color: #F2F2F2;
+    height: 17px;
+    padding-left: 10px;
+}
+                                    
+#icone2:hover{
+    border-color: #F2F2F2;
+}
+       
