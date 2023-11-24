@@ -1,61 +1,49 @@
+/* Début de header */
 
 
-/* reset css */
-
-* {
-    margin: 0;
-    padding: 0;
+header{
+    margin-top: 47px;
 }
 
-/* police */
-@font-face {
-    font-family: 'ralewayextrabold';
-    src: url('font/extra_bold/raleway-extrabold-webfont.woff2') format('woff2'),
-         url('font/extra_bold/raleway-extrabold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+#blockpage-1{
+    display: flex;
+    justify-content:space-between ;
+}
+                                  
+.img-booki{
+    width: 80px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: -15px;
+    object-fit: cover;
+}
+                                  
+.nav-1{
+    margin-right: 55px;
+    list-style: none;
+    display: flex;
+}
+                                  
+.li-1{
+    margin-right: 10px;
 }
 
-@font-face {
-    font-family: 'ralewaybold';
-    src: url('font/font_bold/raleway-bold-webfont.woff2') format('woff2'),
-         url('font/font_bold/raleway-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+.loupe{
+    padding-top: 14px;
+    padding-left: 12px;
+    padding-right: 14px;
+    padding-bottom: 30px;
 }
-
-@font-face {
-    font-family: 'ralewaysemibold';
-    src: url('font/font_semibold/raleway-semibold-webfont.woff2') format('woff2'),
-         url('font/font_semibold/raleway-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
+                                  
+.a1{
+    color: black;
+    text-decoration: none;
     font-family: 'ralewayregular';
-    src: url('font/font_regular/raleway-regular-webfont.woff2') format('woff2'),
-         url('font/font_regular/raleway-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
-
-@font-face {
-    font-family: 'ralewaythin';
-    src: url('font/font_mince/raleway-thin-webfont.woff2') format('woff2'),
-         url('font/font_mince/raleway-thin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+                                  
+.a1:hover{ 
+    color: blue;
+    border-top: 3px blue solid;
+    padding-top: 43px;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'Raleway', sans-serif;
-}
+ 
