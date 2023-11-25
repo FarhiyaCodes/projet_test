@@ -1,82 +1,48 @@
-/* Début de section 1 */
- 
-
-#section-1{
-    margin-top: 40px;
+/* Début de filtres */      
+                                                
+                                  
+.filtres{
+    display: flex;
+    margin-top: 35px;
 }
                                   
-.title-1{ 
+#title-filtre{
     font-family: 'ralewaysemibold';
     margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
 }
                                   
-form{
-    margin-left: 30px;
-    margin-top: 30px;
-}
-
-.text-1{
-    font-family: 'ralewaythin';
-    font-size: small;
-    margin-left: 30px;
-}
+.filter-ul{
+    display: flex;
+    margin-left: 15px;
+}           
                                   
-#recherche{
+.filter-li{
+    position: relative;
+    left: 20px;
+    border: #D7D7D7 solid 2px;
+    border-radius: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    padding: 12px 20px 12px 50px;
     font-family: 'ralewaysemibold';
+}
+                                  
+.filter-li i{
+    position: absolute;
+    left: -11px;
+    top: -2px;
+    padding: 13px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border: 2px solid #DEEBFF;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+                                  
+.filter-li:hover{
     background-color: #0065FC;
     color: white;
-    padding-left: 5px;
-    padding-top: 10px;
-    padding-bottom: 9px;
-    padding-right: 5px;
-    margin-left: -10px;
-    border-radius: 0px 10px 10px 0px;
-    border-color:#0065FC ;
-}
-                                  
-#zoom{
-    color: white;
-}
-                                  
-button{
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    color: white;
-    border:white 1px solid;
-}
-                                   
-input{
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-                                  
-#barre-recherche{
-    display: flex;
-}
-                                   
-#icone-1{
-    background-color: #F2F2F2;
-    padding-right: 12px;
-    padding-left: 10px;
-    padding-top: 12px;
-    padding-bottom: 9px;
-    margin-right: -5px;
-    border-radius: 10px 0px 0px 10px;
-    height: 20px;
-}
-                                  
-#icone-2{
-    font-family: 'ralewaysemibold';
-    padding-top: 11.5px;
-    padding-bottom: 11px;
-    border: 1px #F2F2F2 solid;
-    border-color: #F2F2F2;
-    height: 17px;
-    padding-left: 10px;
-}
-                                    
-#icone2:hover{
-    border-color: #F2F2F2;
 }
        
