@@ -1,42 +1,43 @@
-/* Partie Activité à Marseille */
+/* Début de la partie Footer */
 
-.title-activite-2{
-    margin-top: 40px;
-    margin-left: 40px;
-    font-family: 'ralewaysemibold';
+footer{
+    margin-top: 90px;
 }
 
-.parent {
-    display: grid;
-    margin-left: 40px;
-    margin-top: 20px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    
-    .div1 { grid-area: 1 / 1 / 3 / 2; height: 400px; width: 80%; border-radius: 20px 20px 0px 0px;}
-    .div2 { grid-area: 1 / 2 / 2 / 3; height: 150px; width: 80%; border-radius: 20px 20px 0px 0px;}
-    .div3 { grid-area: 2 / 2 / 3 / 3; height: 150px; width: 80%; border-radius: 20px 20px 0px 0px; margin-top: 45px;}
-    .div4 { grid-area: 1 / 3 / 3 / 4; height: 400px; width: 80%; border-radius: 20px 20px 0px 0px;}
-    .div5 { grid-area: 1 / 4 / 2 / 5; height: 150px; width: 80%; border-radius: 20px 20px 0px 0px;}
-    .div6 { grid-area: 2 / 4 / 3 / 5; height: 150px; width: 80%; border-radius: 20px 20px 0px 0px; margin-top: 45px;}
-
-.img-3{
+#color-fond{
+    background-color: #D7D7D7;
     width: 100%;
-    height: 100%;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
 }
 
-.insertion-titre-3{
-    padding: 15px;
-    margin-top: -5px;
-    font-size: medium;
+#list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.one-list{
+    margin-top: 35px;
+    
+}
+
+.two-list{
+    margin-top: 35px;
+   
+}
+
+.tree-list{
+    margin-top: 35px ;
+    
+}
+
+.title-footer{
     font-family: 'ralewaysemibold';
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
-    border-radius: 0px 0px 20px 20px;
+    font-size: medium;
+}
+
+.footer-text{
+    margin-top: 15px;
+    font-family: 'ralewaythin';
+    font-size: medium;
 }
 
 
